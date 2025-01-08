@@ -1,0 +1,25 @@
+### **1. Con trỏ đa thức**
+Loại này bao gồm hai con trỏ di chuyển độc lập qua một đầu vào, thường dẫn đến độ phức tạp thời gian $$O(N^2)$$. Nó thường được sử dụng trong các tổ hợp brute-force, chẳng hạn như tạo ra tất cả các mảng con hoặc tổ hợp từ một mảng.
+
+### **2. Con trỏ đối kháng**
+Trong biến thể này, một con trỏ bắt đầu từ đầu mảng trong khi con trỏ khác bắt đầu từ cuối, di chuyển về phía nhau. Phương pháp này hiệu quả cho các bài toán như tìm kiếm nhị phân hoặc kiểm tra chuỗi đối xứng (palindrome).
+
+### **3. Nhiều con trỏ**
+Mặc dù chủ yếu liên quan đến hai con trỏ, kỹ thuật này có thể mở rộng đến nhiều hơn hai con trỏ. Nó hữu ích trong các bài toán phức tạp nơi nhiều phần tử tương tác, chẳng hạn như sắp xếp một mảng có nhiều giá trị khác nhau (ví dụ: bài toán Cờ quốc gia Hà Lan).
+
+### **4. Con trỏ đầu vào đôi**
+Biến thể này sử dụng một con trỏ cho mỗi đầu vào tuyến tính. Một ví dụ phổ biến là gộp hai danh sách đã được sắp xếp, nơi các con trỏ so sánh giá trị và xây dựng một đầu ra đã được sắp xếp duy nhất một cách hiệu quả.
+
+### **5. Cửa sổ trượt**
+Biến thể này đặc biệt hữu ích để tìm các mảng con hoặc chuỗi con trong một đầu vào tuyến tính. Nó cho phép thực hiện các phép toán hiệu quả bằng cách duy trì một "cửa sổ" của các phần tử, có thể điều chỉnh linh hoạt dựa trên các điều kiện cụ thể (ví dụ: tìm chuỗi dài nhất với các ký tự duy nhất).
+
+### **6. Con trỏ nhanh và chậm**
+Thường được sử dụng trong các bài toán danh sách liên kết, kỹ thuật này bao gồm hai con trỏ di chuyển với tốc độ khác nhau (một di chuyển nhanh gấp đôi so với cái còn lại). Phương pháp này hiệu quả để phát hiện vòng lặp trong danh sách liên kết hoặc tìm phần tử giữa.
+
+## Ứng dụng phổ biến
+- **Tìm cặp có tổng cụ thể**: Sử dụng con trỏ đối kháng để xác định cặp trong các mảng đã được sắp xếp.
+- **Kiểm tra palindrome**: So sánh các ký tự từ hai đầu của chuỗi.
+- **Gộp các mảng đã được sắp xếp**: Sử dụng con trỏ đầu vào đôi.
+- **Phát hiện vòng lặp**: Sử dụng con trỏ nhanh và chậm trong danh sách liên kết.
+
+Tính linh hoạt của kỹ thuật hai con trỏ làm cho nó trở thành một công cụ mạnh mẽ trong thiết kế thuật toán, đặc biệt là trong phỏng vấn lập trình và các kịch bản lập trình cạnh tranh.
