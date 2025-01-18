@@ -6,8 +6,8 @@
 using namespace std;
 
 int n, m, k = 0;
-int N[100], M[100];
-int re[200];
+int N[101], M[101];
+int re[201];
 
 void input()
 {

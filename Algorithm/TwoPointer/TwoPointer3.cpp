@@ -5,7 +5,7 @@
 using namespace std;
 
 int n, s, count = 0;
-int N[100];
+int N[101];
 
 void input()
 {
@@ -50,6 +50,10 @@ void biggestSegment() { // lớn hơn ngắn nhất
             sum -= N[l++];
         }
     }
+    if(count == n) {
+        cout << -1 << endl;
+    }
+    else cout << count << endl;
 }
 
 int main()
@@ -58,7 +62,7 @@ int main()
     smallestSegment();
     output();
     biggestSegment();
-    output();
+    
 
     return 0;
 }
